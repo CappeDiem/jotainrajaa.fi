@@ -3,8 +3,8 @@ import Footer from "./components/Footer"
 function App() {
 
   return (
-    <>
-      <div className='flex flex-col h-screen items-center justify-center'>
+    <div className={"flex flex-col min-h-screen"}>
+      <div className='flex flex-col flex-grow items-center justify-center'>
         <img src="/rajaa.png" className="h-32 my-8" />
 
         <h1 className='text-6xl'>Hei, Nyt jotain rajaa!</h1>
@@ -16,7 +16,7 @@ function App() {
 
       </div>
       <Footer />
-    </>
+    </div>
   )
 }
 
